@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Registrasi</title>
+  </head>
+  <body>
+    <center><h1>Registrasi Mahasiswa Baru</h1></center>
+    <center><h2>Universitas XYZ</h2></center>
+    <br />
+    <center>
+      <table border="2">
+        <tr>
+          <td>
+            <form action="redirect_signup.html" method="GET" target="_blank">
+              <table border="0">
+                <tr>
+                  <td style="padding: 10px;">
+                    <label for="nama">Nama Lengkap</label>
+                  </td>
+                  <td style="padding: 10px;">:</td>
+                  <td style="padding: 10px;">
+                    <input
+                      style="padding: 5px;"
+                      type="text"
+                      name="nama"
+                      id="nama"
+                      placeholder="contoh : Trisna Nugraha"
+                      required
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px;">
+                    <label for="tempatlahir">Tempat Lahir</label>
+                  </td>
+                  <td style="padding: 10px;">:</td>
+                  <td style="padding: 10px;">
+                    <input
+                      style="padding: 5px;"
+                      type="text"
+                      name="tempatlahir"
+                      id="tempatlahir"
+                      placeholder="contoh : Jakarta"
+                      required
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px;">
+                    <label for="tanggallahir">Tanggal Lahir</label>
+                  </td>
+                  <td style="padding: 10px;">:</td>
+                  <td style="padding: 10px;">
+                    <input
+                      style="padding: 5px; width: 93%;"
+                      type="date"
+                      name="tanggallahir"
+                      id="tanggallahir"
+                      required
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px;">
+                    <label for="jeniskelamin">Jenis Kelamin</label>
+                  </td>
+                  <td style="padding: 10px;">:</td>
+                  <td style="padding: 10px;">
+                    <select
+                      style="padding: 5px; width: 100%;"
+                      name="jeniskelamin"
+                      id="jeniskelamin"
+                      required
+                    >
+                      <option value="" selected>Pilih Jenis Kelamin</option>
+                      <option value="laki">Laki-Laki</option>
+                      <option value="Perempuan">Perempuan</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px;">
+                    <label for="fakultas">Fakultas</label>
+                  </td>
+                  <td style="padding: 10px;">:</td>
+                  <td style="padding: 10px;">
+                    <select
+                      style="padding: 5px; width: 100%;"
+                      name="fakultas"
+                      id="fakultas"
+                      required
+                    >
+                      <option value="" selected>Pilih Fakultas</option>
+                      <option value="ilkom">Ilmu Komputer</option>
+                      <option value="ekonomi">Ekonomi</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px;">
+                    <label for="prodi">Program Studi</label>
+                  </td>
+                  <td style="padding: 10px;">:</td>
+                  <td style="padding: 10px;">
+                    <select
+                      style="padding: 5px; width: 100%;"
+                      name="prodi"
+                      id="prodi"
+                      required
+                    >
+                      <option value="" selected>Pilih Program Studi</option>
+                      <option value="ti">Teknik Informatika</option>
+                      <option value="si">Sistem Informasi</option>
+                      <option value="akuntansi">Akuntansi</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px;">
+                    <label for="email">Email</label>
+                  </td>
+                  <td style="padding: 10px;">:</td>
+                  <td style="padding: 10px;">
+                    <input
+                      style="padding: 5px;"
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="contoh : trisna@yahoo.com"
+                      required
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="padding: 25px;">
+                    <center>
+                      <input
+                        style="text-align: center; padding: 10px; width: 75%;"
+                        type="submit"
+                        name="daftar"
+                        id="daftar"
+                        value="Daftar"
+                      />
+                    </center>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="text-align: center; padding: 10px;">
+                    <a href="index.html">Kembali ke Menu Utama</a>
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>
