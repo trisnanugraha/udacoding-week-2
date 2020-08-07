@@ -1,0 +1,55 @@
+body {
+  background-color: #00b0ff;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #f3faff;
+  text-align: center;
+  margin-top: 40px;
+  letter-spacing: 5px;
+}
+
+table {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 5%;
+  width: 900px;
+  font-size: 16px;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+td {
+  text-align: center;
+}
+
+th {
+  background-color: #3a4856;
+  color: #f3faff;
+}
+
+tr:hover {
+  background-color: #9eadbd;
+  color: #f3faff;
+}
+
+#table-bg {
+  position: relative;
+  background-color: #f3faff;
+  width: 1000px;
+  height: 460px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  box-shadow: 4px 6px 15px 1px #3b78a4;
+}
+/* ditulis oleh Trisna Nugraha */

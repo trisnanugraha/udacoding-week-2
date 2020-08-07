@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="css/style-form.css" />
+  </head>
+  <body>
+    <div id="body-bg">
+      <div id="left">
+        <p id="judul">
+          Ayo <br />
+          Daftar Sekarang!
+        </p>
+        <img id="banner" src="images/study.svg" alt="Banner" />
+      </div>
+      <div id="right">
+        <div id="form-bg">
+          <p id="judul-form">Lengkapi Data Dirimu</p>
+          <table>
+            <tr>
+              <td>
+                <form id="form-daftar" action="#" method="GET" target="_blank">
+                  <label for="namalengkap">Nama Lengkap</label>
+                  <input
+                    type="text"
+                    name="nama"
+                    id="nama"
+                    placeholder="contoh : Trisna Nugraha"
+                    required
+                  />
+
+                  <label for="tempatlahir">Tempat Lahir</label>
+                  <input
+                    type="text"
+                    name="tempatlahir"
+                    id="tempatlahir"
+                    placeholder="contoh : Jakarta"
+                    required
+                  />
+
+                  <label for="tanggallahir">Tanggal Lahir</label>
+                  <input
+                    type="date"
+                    name="tanggallahir"
+                    id="tanggallahir"
+                    required
+                  />
+
+                  <label for="jeniskelamin">Jenis Kelamin</label>
+                  <select name="jeniskelamin" id="jeniskelamin" required>
+                    <option value="" selected>Pilih Jenis Kelamin</option>
+                    <option value="laki">Laki-Laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                  </select>
+
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="contoh : trisna@yahoo.com"
+                    required
+                  />
+
+                  <input
+                    type="submit"
+                    name="daftar"
+                    id="daftar"
+                    value="Daftar"
+                  />
+                </form>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- ditulis oleh Trisna Nugraha -->

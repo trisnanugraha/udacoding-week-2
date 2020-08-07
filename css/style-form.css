@@ -1,0 +1,134 @@
+@font-face {
+  font-family: roboto-bold;
+  src: url(/fonts/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: roboto-reguler;
+  src: url(/fonts/roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: roboto-light;
+  src: url(/fonts/roboto/Roboto-Light.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+#body-bg {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#left {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  background-color: #d3f4ff;
+}
+
+#right {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  background-color: white;
+  margin-left: 60%;
+}
+
+#banner {
+  margin-top: 10px;
+  margin-left: 80px;
+  width: 650px;
+  height: 650px;
+}
+
+#judul {
+  position: absolute;
+  margin: 0;
+  margin-left: 60px;
+  margin-top: 50px;
+  padding: 0;
+  font-family: roboto-bold;
+  font-size: 80px;
+  color: #3a4856;
+  letter-spacing: 3px;
+}
+
+#form-bg {
+  position: relative;
+  width: 400px;
+  height: 580px;
+  margin-top: 50px;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 4px 8px 15px 1px #6c747c;
+}
+
+#judul-form {
+  position: absolute;
+  margin-top: 30px;
+  margin-top: 25px;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: roboto-light;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#form-daftar {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  font-family: roboto-reguler;
+}
+
+label {
+  font-family: roboto-light;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+input[type="text"],
+[type="date"],
+[type="email"],
+select {
+  width: 85%;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-family: roboto-light;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  width: 85%;
+  margin-left: 30px;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  background-color: #2eeeb7;
+  cursor: pointer;
+  font-family: roboto-light;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+input[type="submit"]:hover {
+  background-color: #008a5c;
+}
+/* ditulis oleh Trisna Nugraha */
